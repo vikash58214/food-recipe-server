@@ -24,6 +24,6 @@ mongoose
     console.log("No connection");
   });
 
-app.listen(3000, () => {
+app.listen(3000 || 6010, () => {
   console.log("server is running");
 });
